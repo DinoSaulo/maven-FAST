@@ -1,3 +1,2 @@
-/py/*.pyc
-/py/**/*.pyc
-/tests/**/*.pyc
+/**/*.pyc
+/target/
