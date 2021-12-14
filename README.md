@@ -1,4 +1,4 @@
-# FAST-parameterized
+# FAST-Maven
 
 This repository is a modification of the [FAST Approaches to Scalable Similarity-based Test Case Prioritization](https://github.com/icse18-FAST/FAST) project, it is based on the following publication:
 
@@ -14,11 +14,11 @@ In order to replicate the project follow these steps:
 
 ### Prerequisites
 
-1. Have git installed - [Download](https://git-scm.com/downloads)
+1. Have Git installed - [Download](https://git-scm.com/downloads)
 
 2. Have Python version 3 installed - [Download](https://www.python.org/downloads/)
 
-3. Have the pip installed - [How to install pip](https://pip.pypa.io/en/stable/cli/pip_install/)
+3. Have the PIP installed - [How to install pip](https://pip.pypa.io/en/stable/cli/pip_install/)
 
 ### Getting started
 
@@ -121,7 +121,7 @@ In order to replicate the project follow these steps:
 
    Example: `python3 tools/project-instrumentation.py /home/user/projects/truth add_instrumentation_to_the_project`
 
-   #### Removendo a instrumentação
+   #### Removing a instrumentação
 
    To automatically remove instrumentation from the project, just run the command
     - `python3 tools/project-instrumentation.py <subject> remove_instrumentation_from_the_project`
@@ -130,11 +130,11 @@ In order to replicate the project follow these steps:
 
 ### Clean preprocessed input files
 
- 1. Run the script `clean-preprocessed-input.py` to clean preprocessed input files for repeating the prioritization in a clean environment.
+ 1. Run the script [clean-project.py](/tools/clean-project.py) to clean the environment.
 
-    - `python3 tools/clean-preprocessed-input.py <subject>`
+    - `python3 tools/clean-project.py <subject>`
 
-   Example: `python3 tools/clean-preprocessed-input.py /home/user/projects/truth`
+   Example: `python3 tools/clean-project.py /home/user/projects/truth`
 
 
 Directory Structure
