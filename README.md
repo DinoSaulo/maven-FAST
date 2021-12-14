@@ -121,7 +121,7 @@ In order to replicate the project follow these steps:
 
    Example: `python3 tools/project-instrumentation.py /home/user/projects/truth add_instrumentation_to_the_project`
 
-   #### Removing a instrumentação
+   #### Removing the instrumentation
 
    To automatically remove instrumentation from the project, just run the command
     - `python3 tools/project-instrumentation.py <subject> remove_instrumentation_from_the_project`
